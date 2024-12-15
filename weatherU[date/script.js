@@ -9,7 +9,7 @@ let z=document.createElement("p");
 z.innerHTML="<sup>o</sup>";
 
 let apiKey='b318a99fc41be10d323d2c44e28d6671'
-let url=`http://api.openweathermap.org/data/2.5/weather?units=metric&q=`
+let url=`https://api.openweathermap.org/data/2.5/weather?units=metric&q=`
 let temp=document.getElementById('temp');
 let bod=document.querySelector("body");
 
